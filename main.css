@@ -1,0 +1,22 @@
+.nav {
+	font-size: 20px;
+	background-color: #ffce23;
+
+}
+
+.jumbotron {
+	background-color: #171309;}
+
+.jumbotron .container .col-md-10 {
+	color: #FFFFFF;
+}
+
+.jumbotron .container .col-md-10 h2
+{
+	font-size: 12px;
+}
+
+.jumbotron .container .col-md-10 p
+{
+	font-size: 9px;
+}
