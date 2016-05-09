@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--헤더부분-->
+	<link rel="icon" href="icon.ico">
+	<title>be-tween | 미디어인터페이스 7조</title>
+
+	<!--참조부분-->
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#94e5ba'],
+				anchors: ['section0', 'section1', 'section2', 'section3','section4','section5', 'section6','section7'],
+				menu: '#menu',
+				slidesNavigation: true,
+
+
+				//equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
+				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="jquery.slimscroll.min.js"></script>
+
+</head>
+
+<body>
+	<ul id="menu">
+	<li data-menuanchor="section1" class="active"><a href="#section1"></a>intro clip</li>
+	<li data-menuanchor="section2"><a href="#section2">들어가며</a></li>
+	<li data-menuanchor="section3"><a href="#section3">선행연구</a></li>
+	<li data-menuanchor="section4"><a href="#section4">연구방법</a></li>
+	<li data-menuanchor="section5"><a href="#section5">연구결과</a></li>
+	<li data-menuanchor="section6"><a href="#section6">해석과 느낀점</a></li>
+	<li data-menuanchor="section7"><a href="#section7">발전방향</a></li>
+	<li data-menuanchor="section8"><a href="#section8">조원소개</a></li>
+</ul>
+
+	<div id="fullpage">
+		<div class="section" id="section1">
+			<div style="text-align:center">
+			<iframe height="404	" width="720" src="https://www.youtube.com/embed/hdjpyiRg6Fo" frameborder="0" allowfullscreen></iframe></div>
+			</div>
+		<div class="section" id="section2">
+				
+				<img src="001.png" width=100% ></img>
+			</div>
+			<div class="section" id="section3">
+				
+				<img src="002.png" width=100% ></img>
+			</div>
+			<div class="section" id="section4">
+				
+				<img src="003.png" width=100% ></img>
+			</div>
+			
+			<div class="section" id="section5">
+				<div class="slide" id="slide1" data-anchor="slide1">
+					<div class="intro">
+					<img src="005-1.png" width=100% />
+					</div>
+				</div>
+
+	    		<div class="slide" id="slide2" data-anchor="slide2">
+					<img src="005-2.png" width=100% />
+				</div>
+
+				<div class="slide" id="slide3" data-anchor="slide3">
+					<img src="005-3.png" width=100% />
+				</div>	
+				<div class="slide" id="slide3" data-anchor="slide3">
+					<img src="005-4.png" width=100% />
+				</div>
+				<div class="slide" id="slide3" data-anchor="slide3">
+					<img src="005-5.png" width=100% />
+				</div>
+				<div class="slide" id="slide3" data-anchor="slide3">
+					<img src="005-6.png" width=100% />
+				</div>
+			</div>
+			
+			<div class="section" id="section6">
+				
+				<img src="006.png" width=100% ></img>
+			</div>
+			
+			<div class="section" id="section7">
+				
+				<img src="007.png" width=100% ></img>
+			</div>
+			<div class="section" id="section8">
+				<img src="008.png" width=100% ></img>
+			</div>
+	</div>
+
+	<!--자바스크립트-->
+	<!--<script src="~~"></script>-->
+
+</body>
+
+</html>
